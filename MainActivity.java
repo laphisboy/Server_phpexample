@@ -42,7 +42,7 @@ public class MainActivity extends Activity {
 
     // final class : class that can't be extended
     final String uploadFilePath = "/storage/emulated/0/DCIM/Camera/";
-    final String uploadFileName = "IMG_20210407_043542.jpg";
+    final String uploadFileName = "image_name.jpg";
     // need to turn on phone and check directory
     // and take a photo and check its name :)
 
@@ -90,7 +90,7 @@ public class MainActivity extends Activity {
         //               해주는 method
 
 
-        uploadServerUri = "http://61.73.67.88/UploadToServer.php";
+        uploadServerUri = "http://path_to_server/UploadToServer.php";
 
         uploadButton.setOnClickListener(new View.OnClickListener() {
             // the system executes the code you write in onClick(View)
